@@ -13,7 +13,7 @@ public class AdicionaPessoaDTO implements Serializable {
    // @Size(max = 200)
     private String nome;
 
-    @NotNull(message = "Campo data de nascimento obrigatório.")
+  //  @NotNull(message = "Campo data de nascimento obrigatório.")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private LocalDate dataNascimento;
 

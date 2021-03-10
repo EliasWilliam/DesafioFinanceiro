@@ -1,5 +1,7 @@
 package com.MVFinanceiro.DesafioMV.Model.Converter;
 
+import com.MVFinanceiro.DesafioMV.Model.Enums.ActiveEnum;
+
 public class BooleanConverter implements AttributeConverter<Boolean, String> {
 
 
